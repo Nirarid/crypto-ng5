@@ -1,0 +1,195 @@
+
+    <div class="container-lg">
+      <h3 class="text-center">Select your Crytpo</h3>
+  
+      <div class="tab text-center">
+        <button
+        class="tablinks btn btn-outline-danger"
+        onclick="openCity(event, 'Bitcoin')"
+        >
+        Bitcoin
+      </button>
+      <button
+      class="tablinks btn btn-outline-primary"
+      onclick="openCity(event, 'Ethereum')"
+      >
+      Ethereum
+    </button>
+    <button
+    class="tablinks btn btn-outline-warning"
+    onclick="openCity(event, 'DogeCoin')"
+    >
+    DogeCoin
+  </button>
+  </div>
+  
+  <div id="Bitcoin" class="tabcontent text-center">
+    <h3>Bitcoin</h3>
+    <h4>
+      Bitcoin Graph
+    </h4>
+    <p>Some text</p>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <span>Select a coin</span>
+          <select class="form-control" id="select1">
+            <option value="Bitcoin">Bitcoin</option>
+            <option value="Ethereum">Ethereum</option>
+            <option value="DogeCoin">DogeCoin</option>
+            <option value="Usd">Dollars</option>
+            <option value="Euro">Euro</option>
+            <option value="Peso">Peso Mexicano</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <span>Select a coin</span>
+          <select class="form-control" id="select2">
+            <option value="Bitcoin">Bitcoin</option>
+            <option value="Ethereum">Ethereum</option>
+            <option value="DogeCoin">DogeCoin</option>
+            <option value="Usd">Dollars</option>
+            <option value="Euro">Euro</option>
+            <option value="Peso">Peso Mexicano</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="input-group mt-3 mb-3">
+      <input
+      type="text"
+      class="form-control"
+      placeholder="Value"
+      id="input1"
+      />
+      <span class="input-group-text mx-1">--></span>
+      <input
+      type="text"
+      class="form-control"
+      placeholder="Value"
+      disabled="disabled"
+      id="input2"
+      />
+      <br>
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn btn-primary text-center" onclick="getCoinData()">Calculate</button>
+    </div>
+  </div>
+  
+  <div id="Ethereum" class="tabcontent text-center">
+    <h3>Ethereum</h3>
+    <h4>
+      Ethereum Graph
+    </h4>
+    <p>Some text</p>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <span>Select a coin</span>
+          <select class="form-control" id="select1">
+            <option value="Ethereum">Ethereum</option>
+            <option value="Bitcoin">Bitcoin</option>
+            <option value="DogeCoin">DogeCoin</option>
+            <option value="Usd">Dollars</option>
+            <option value="Euro">Euro</option>
+            <option value="Peso">Peso Mexicano</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <span>Select a coin</span>
+          <select class="form-control" id="select2">
+            <option value="Bitcoin">Bitcoin</option>
+            <option value="Ethereum">Ethereum</option>
+            <option value="DogeCoin">DogeCoin</option>
+            <option value="Usd">Dollars</option>
+            <option value="Euro">Euro</option>
+            <option value="Peso">Peso Mexicano</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="input-group mt-3 mb-3">
+      <input
+      type="text"
+      class="form-control"
+      placeholder="Value"
+      id="input1"
+      />
+      <span class="input-group-text mx-1">--></span>
+      <input
+      type="text"
+      class="form-control"
+      placeholder="Value"
+      disabled="disabled"
+      id="input2"
+      />
+      <br>
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn btn-primary text-center" onclick="getCoinData()">Calculate</button>
+    </div>
+  </div>
+  
+  <div id="DogeCoin" class="tabcontent text-center">
+    <h3>
+      DogeCoin
+    </h3>
+    <h4>
+      DogeCoin Graph
+    </h4>
+    <p>Some text</p>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <span>Select a coin</span>
+          <select class="form-control" id="select1">
+            <option value="Ethereum">Ethereum</option>
+            <option value="Bitcoin">Bitcoin</option>
+            <option value="DogeCoin">DogeCoin</option>
+            <option value="Usd">Dollars</option>
+            <option value="Euro">Euro</option>
+            <option value="Peso">Peso Mexicano</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <span>Select a coin</span>
+          <select class="form-control" id="select2">
+            <option value="Bitcoin">Bitcoin</option>
+            <option value="Ethereum">Ethereum</option>
+            <option value="DogeCoin">DogeCoin</option>
+            <option value="Usd">Dollars</option>
+            <option value="Euro">Euro</option>
+            <option value="Peso">Peso Mexicano</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="input-group mt-3 mb-3">
+      <input
+      type="text"
+      class="form-control"
+      placeholder="Value"
+      id="input1"
+      />
+      <span class="input-group-text mx-1">--></span>
+      <input
+      type="text"
+      class="form-control"
+      placeholder="Value"
+      disabled="disabled"
+      id="input2"
+      />
+      <br>
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn btn-primary text-center" onclick="getCoinData()">Calculate</button>
+    </div>
+  </div>
+
