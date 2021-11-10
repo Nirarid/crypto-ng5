@@ -32,8 +32,8 @@
 
 <div class="tab text-center">
   <form>
-    <input type="text" class="txt1" name="item" placeholder="user">
-    <input type="password" class="txt1" name="item" placeholder="password">
+    <input type="text" class="txt1" name="item" placeholder="user" [(ngModel)]="user">
+    <input type="password" class="txt1" name="item" placeholder="password" [(ngModel)]="password">
     <input type="submit" class="btn1" value="login" (click)="loginUser()">
   </form>
   <!-- {{ token }} -->
