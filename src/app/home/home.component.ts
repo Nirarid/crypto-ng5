@@ -11,7 +11,7 @@ import { GraphqlUsersService} from '../graphql.users.service';
 export class HomeComponent implements OnInit {
 
   user: string = ""
-  pass: string = ""
+  password: string = ""
   token: string = ""
 
   constructor(
@@ -24,8 +24,8 @@ export class HomeComponent implements OnInit {
 
   loginUser() {
 
-    alert(this.user + " - " + this.pass);
-    this.graphqlUsersService.tokenAuth(this.user, this.pass)
+    alert(this.user + " - " + this.password);
+    this.graphqlUsersService.tokenAuth(this.user, this.password)
     .subscribe(({ data }) => {
        console.log('logged: ', JSON.stringify(data));
       this.token =  JSON.parse(JSON.stringify(data)).tokenAuth.token;
