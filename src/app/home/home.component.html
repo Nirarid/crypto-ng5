@@ -34,7 +34,9 @@
   <form>
     <input type="text" class="txt1" name="item" placeholder="user" [(ngModel)]="user">
     <input type="password" class="txt1" name="item" placeholder="password" [(ngModel)]="password">
+    <input type="email" class="txt1" name="item" placeholder="email" [(ngModel)]="email">
     <input type="submit" class="btn1" value="login" (click)="loginUser()">
+    <input type="submit" class="btn1" value="signin" (click)="signUser()">
   </form>
    {{ token }} 
 </div>
